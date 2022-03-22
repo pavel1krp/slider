@@ -18,7 +18,7 @@ background-color: yellow;
 transition: ease-in-out .9s;
 }
 .slider__item{
-    height: 900px;
+    height: 95vh;
     min-width: 600px;
     BACKGROUND-SIZE: cover;
 }
