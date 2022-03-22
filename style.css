@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    margin: 0 auto;
+    background-position: center;
+}
+.slider__container{
+    overflow: hidden;
+    background-color: blueviolet;
+}
+.slider__track{
+display: flex;
+background-color: yellow;
+transition: ease-in-out .9s;
+}
+.slider__item{
+    height: 900px;
+    min-width: 600px;
+    BACKGROUND-SIZE: cover;
+}
+.slider__item:nth-child(3n+1){
+    background-color: rgb(255, 0, 0);
+}
+.slider__item:nth-child(3n+3){
+    background-color: blue;
+}
+.slider__item:nth-child(3n+2){
+    background-color: rgb(0, 255, 76);
+}
+.slider__buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.c1{
+    background-image: url(1.jpg);
+    background-size: unset;
+}
+.c2{
+    background-image: url(2.jpg);
+}
+.c3{
+    background-image: url(3.jpg);
+}
+.c4{
+    background-image: url(4.jpg);
+}
+.c5{
+    background-image: url(5.jpg);
+}
+.c6{
+    background-image: url(od.jpg);
+}
+.c7{
+    background-image: url(stiki.png);
+    background-size:unset ;
+}
+.c8{
+    background-image: url(batik.jpg);
+    BACKGROUND-POSITION: center;
+}
+button{
+    height: 45px;
+    width: 100px;
+     background-color: #232323;
+     color: aliceblue;
+     font-size: 20px;
+}
+.b{
+  margin: 400px 257px;;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
